@@ -9,16 +9,16 @@ We have several method for it:
 
 * Move to the application directory (Prefer via cmd)
 * You have to install necessary libraries such as:
-  1. @react-native-community/masked-view
-  2. react-navigation/native
-  3. react-navigation/stack
-  4. axios
-  5. react-native-gesture-handler
-  6. react-native-safe-area-context
-  7. react-native-screens
-  8. react-redux
-  9. redux
-  10. redux-thunk
+  * @react-native-community/masked-view
+  * react-navigation/native
+  * react-navigation/stack
+  * axios
+  * react-native-gesture-handler
+  * react-native-safe-area-context
+  * react-native-screens
+  * react-redux
+  * redux
+  * redux-thunk
 You can you do it via command line - npm intsll (library)
 * Read this documentations:
   1. [React Navigation](https://reactnavigation.org/docs/getting-started)
