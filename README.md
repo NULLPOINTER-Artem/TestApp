@@ -7,6 +7,7 @@ We have several method for it:
 1. npm run android/ios (Recommending android)
 2. npx react-native run-android/run-ios
 
+### You must have install this libraries
 * Move to the application directory (Prefer via cmd)
 * You have to install necessary libraries such as:
   * @react-native-community/masked-view
