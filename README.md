@@ -21,6 +21,6 @@ We have several method for it:
   * redux-thunk
 You can you do it via command line - npm intsll (library)
 * Read this documentations:
-  1. [React Navigation](https://reactnavigation.org/docs/getting-started)
-  2. [React Native](https://reactnative.dev/docs/getting-started)
-  3. [Redux + Async](https://redux.js.org/introduction/getting-started)
+  * [React Navigation](https://reactnavigation.org/docs/getting-started)
+  * [React Native](https://reactnative.dev/docs/getting-started)
+  * [Redux + Async](https://redux.js.org/introduction/getting-started)
