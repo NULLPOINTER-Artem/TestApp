@@ -13,7 +13,6 @@ We have several method for it:
   * @react-native-community/masked-view
   * react-navigation/native
   * react-navigation/stack
-  * axios
   * react-native-gesture-handler
   * react-native-safe-area-context
   * react-native-screens
