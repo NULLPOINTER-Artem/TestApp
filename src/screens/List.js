@@ -4,7 +4,7 @@ import { View, Text, FlatList, ImageBackground, Image, TouchableHighlight } from
 import { connect } from 'react-redux';
 import { onFetchPhotos } from '../actions/fetch';
 
-import { styles } from '../theme/styles'
+import { styles } from '../theme/styles';
 
 class List extends Component {
     constructor(props) {
@@ -13,7 +13,7 @@ class List extends Component {
 
     // uploading pictures into the application from API
     componentDidMount() {
-        this.props.onFetchPhotos();
+        this.props.onFetchPhotos;
     }
 
     _renderItem = ({ item }) => {
@@ -70,4 +70,10 @@ const mapStateToProps = (state) => ({
     fetchReducer: state.fetchReducer,
 });
 
-export default connect(mapStateToProps, { onFetchPhotos })(List);
+const mapDispatchToProps = (dispatch) => {
+    return {
+        onFetchPhotos: dispatch(onFetchPhotos()),
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(List);

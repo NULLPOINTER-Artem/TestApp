@@ -3,9 +3,6 @@ import React, {Component} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import { Provider } from 'react-redux';
-import { store } from './src/stores/stores';
-
 import List from './src/screens/List';
 import Photo from './src/screens/Photo';
 
@@ -25,7 +22,6 @@ class App extends Component {
 
   render() {
     return (
-      <Provider store={store}>
         <NavigationContainer>
           <Stack.Navigator>
             <Stack.Screen
@@ -35,7 +31,6 @@ class App extends Component {
             />
           </Stack.Navigator>
         </NavigationContainer>
-      </Provider>
     )
   }
 };
