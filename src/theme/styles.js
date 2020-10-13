@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 import { WINDOW } from '../constants/constants';
 
 // Here is all applied styles of the application
-export const styles = StyleSheet.create({
+const styles = StyleSheet.create({
     frame: {
         flex: 1,
         backgroundColor: '#000',
@@ -47,3 +47,5 @@ export const styles = StyleSheet.create({
         opacity: 0.5,
     }
 });
+
+export default styles;

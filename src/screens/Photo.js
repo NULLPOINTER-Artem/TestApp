@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Image } from 'react-native';
 
-import { styles } from '../theme/styles'
+import styles from '../theme/styles'
 
 class Photo extends Component {
     render() {
